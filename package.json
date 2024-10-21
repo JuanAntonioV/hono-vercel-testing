@@ -1,12 +1,15 @@
 {
   "name": "hono-vercel-testing",
   "scripts": {
-    "dev": "bun run --hot src/index.ts"
+    "dev": "bun run --hot src/index.ts",
+    "start": "vercel dev",
+    "deploy": "vercel"
   },
   "dependencies": {
     "hono": "^4.6.5"
   },
   "devDependencies": {
-    "@types/bun": "latest"
+    "@types/bun": "latest",
+    "vercel": "^37.11.0"
   }
 }
